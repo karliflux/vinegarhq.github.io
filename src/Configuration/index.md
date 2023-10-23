@@ -92,6 +92,7 @@ renderer = "Vulkan"
 
 [player]
 channel = "zcanary"
+discord_rpc = false
 
 [player.env]
 DXVK_HUD = "0"
@@ -102,4 +103,8 @@ DFIntTaskSchedulerTargetFps = 144
 
 [studio]
 renderer = "OpenGL"
+
+[splash]
+enabled = true
+background = "0x242424"
 ```
